@@ -1,0 +1,107 @@
+@media (max-width:600px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    body{
+        background-color: #024f47;
+    }
+    .navbar{
+        height: 15vh;
+        width: auto;
+        display: flex;
+        flex-direction:column;
+        gap:0em;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+       gap: 2em;
+    }
+    .logo-heading{
+        padding: .2em 0 0 3em;
+        color: white;
+    }
+    li{
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top:.7em;
+        padding-left: .6em;
+    }
+    li:hover{
+    transition: 1s zoom-out;
+    transform: scale(1.1);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .main{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        height:auto;
+        width: auto;
+    }
+    .picture{
+        height: 90vh;
+        width: auto;
+        margin-top: 1em;
+    }
+    .img{
+        animation: 1s move-right forwards;
+        animation-delay: 1s;
+        transform: translate(100px);
+        opacity: 0;
+    }
+    @keyframes move-right {
+        0%{
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100%{
+            transform:translateX(0%) ;
+            opacity: 1;
+        }
+    }
+    .back-img{
+        height: 500px;
+        width: 400px;
+        float: right;
+       border-radius: 10px;
+    }
+    .plant-pic{
+        height: 400px;
+        width: 300px;
+       border-radius: 10px;
+    }
+    .plant{
+        position: relative;
+        top: -75%;
+    }
+    .welcome{
+        color: white;
+        padding-top: 1em;
+    }
+    .ceramic{
+        font-size: 50px;
+        text-align: left;
+        color: white;
+    }
+    .price{
+        color: white;
+        padding-top: 1em;
+    }
+    button{
+        height: 40px;
+        width:200px;
+        font-size: 20px;
+        margin-top: .3em;
+        background-color: white;
+        border: none;
+        color: black;
+    }
+}

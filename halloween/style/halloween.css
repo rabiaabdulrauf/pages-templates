@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40em;
+    background-color: black;
+}
+.logo-pic{
+    height: 55px;
+    width: 200px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding-top: 1em;
+}
+i{
+    font-size: 20px;
+    color: white;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+li .active{
+    color: #e35700;
+}
+a{
+    text-decoration: none;
+ color: white;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .spn{
+    visibility: hidden;
+    margin-left: -40em;
+  }
+.halloween{
+    height: 90vh;
+    width: 95%;
+    margin: 0 auto;
+    background-image:url(../assets/background.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   border-radius: 10px 10px 0 0;
+}
+p{
+    color: white;
+    padding-top: 1em;
+}
+.h-pic{
+    height: 100px;
+    width: 400px;
+    margin-top: 1em;
+}
+.info{
+    width: 400px;
+    line-height: 130%;
+    height: 70vh;
+    padding-top: 7em;
+    animation: 1s slideIn forwards;
+    animation-delay: 1s;
+    transform: translateX(100px);
+    opacity: 0;
+    margin-left: -2em;
+}
+@keyframes slideIn {
+0%{
+    transform: translateX(0px);
+    opacity: 0;
+}    
+100%{
+    transform: translateX(50px);
+    opacity: 1;
+}
+}
+.para{
+    color: white;
+    text-align: left;
+}
+.shop{
+    height: 40px;
+    width: 150px;
+    background-color: #e35700;
+    color: white;
+    margin-top: 1em;
+    border: none;
+    font-size: 20px;
+}
+.shop:hover{
+    background-color: #dc6a23;
+    cursor: pointer;
+}

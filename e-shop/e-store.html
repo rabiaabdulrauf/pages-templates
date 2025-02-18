@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>E-Store | Shopping webiste</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/store.css">
+    <link rel="stylesheet" href="style/store-media.css">
+</head>
+<body>
+    <!-------------header--------------------------->
+    <div class="header">
+        <div class="Faq">
+            <p><i class="fa-solid fa-envelope"></i>support@email.com</p>
+        </div>
+        <div class="icons">
+          <p><i class="fa-solid fa-phone"></i>+012-345-6789</p>
+        </div>
+        </div>
+        <!--------------------navbar----------------->
+        <div class="navbar">
+            <nav>
+             <ul class="un-list">
+                   <li class="list" style="color: black;">Home</li>
+                   <li class="list" >Products</li>
+                   <li class="list">Products Details</li>
+                   <li class="list">Cart</li>
+                   <li class="list">Chechout</li>
+                   <li class="list">My Account</li>
+                   <li class="list"><div class="dropdown">
+                    <button class="dropbtn">Pages<i class="fa-solid fa-caret-down fa-sm"></i></button>
+                    <div class="dropdown-content">
+                      <a href="#">Wishlist</a>
+                      <a href="#">Acoounts</a>
+                      <a href="#">Contact us</a>
+                    </div>
+                  </div></li>
+             </ul>
+            </nav>
+            <div class="drop">
+              <div class="dropdown">
+                    <button class="dropbtn">User Account<i class="fa-solid fa-caret-down fa-sm"></i></button>
+                    <div class="dropdown-content">
+                      <a href="#">Login</a>
+                      <a href="#">Register</a>
+                    </div>
+                  </div>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Products</a>
+                <a href="#">Products Details</a>
+                <a href="#">Acoounts</a>
+                <a href="#">Cart</a>
+                <a href="#">Chechout</a>
+                <a href="#">Pages</a>
+              </div>
+              <span style="cursor:pointer" onclick="openNav()" class="spn">&#9776;</span>
+         </div>
+         <!-------------------post-header-------------------------->
+         <div class="post-header">
+            <div class="logo">
+              <h1 class="e-heading">E</h1>
+              <span class="shop">Shop</span>
+            </div>
+            <div class="input">
+             <input type="text" placeholder="Search for products">
+             <i class="fa-solid fa-magnifying-glass" id="Search"></i>
+    
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping" id="icon"></i>
+                <i class="fa-solid fa-heart" id="icon"></i>
+            </div>
+        </div>
+          <!---------------------------------------main------------------------------------->
+          <div class="main">
+            <div class="menu">
+              <p class="home"><i class="fa-solid fa-house"  id="home"></i>Home</p>
+              <p class="home"><i class="fa-solid fa-bag-shopping" id="home"></i>Best Selling</p>
+              <p class="home"><i class="fa-solid fa-box" id="home"></i>New Arrivals</p>
+              <p class="home"><i class="fa-solid fa-child" id="home"></i>Fashion</p>
+              <p class="home"><i class="fa-solid fa-child" id="home"></i>Babies</p>
+              <p class="home"><i class="fa-solid fa-mobile" id="home"></i>Gadgets</p>
+              <p class="home"><i class="fa-solid fa-mobile" id="home"></i>Electronics</p>
+            </div>
+            <div class="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/slider-1.jpg" class="d-block w-100" alt="..." id="img">
+      <div class="carousel-caption  d-md-block">
+        <h5 class="heading-5">Discover E-Shop </h5> 
+        <p class="shopping">Our New Collection upto 20% Off</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/slider-2.jpg" class="d-block w-100" alt="..." id="img">
+      <div class="carousel-caption  d-md-block">
+        <h5 class="heading-5">Discover E-Shop </h5>
+        <p class="shopping">Our New Collection upto 20% Off</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/slider-3 (1).jpg" class="d-block w-100" alt="..." id="img">
+      <div class="carousel-caption  d-md-block">
+        <h5 class="heading-5">Discover E-Shop </h5>
+        <p class="shopping">Our New Collection upto 20% Off</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            </div>
+            <div class="photo">
+              <div class="container">
+                <img src="assets/category-1.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Fashion & Beauty</div>
+                </div>
+              </div>
+              <div class="container">
+                <img src="assets/category-2.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Kids & Babies </div>
+                </div>
+              </div>  
+            </div>
+          </div>
+
+
+
+
+
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

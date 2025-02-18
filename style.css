@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    .flexbox{
+        height: 110vh;
+        width: 100%;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .row-one, .row-2{
+        height: 45vh;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 6em;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .cart1{
+        height: 45vh;
+        width: 250px;
+    }
+    button{
+        height: 40px;
+        width: 130px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 2em;
+    }
+    button:hover{
+        color:black;
+        background-color: white;
+        cursor: pointer;
+    }
+    img{
+        height: 30vh;
+        width: 200px;
+    }

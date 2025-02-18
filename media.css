@@ -1,0 +1,55 @@
+@media (max-width:600px){
+    .flexbox{
+        height: 400vh;
+        width: 100%;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .row-one{
+        height: 45vh;
+        width: 90%;
+        margin-left: 5em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .row-2{
+        height: 45vh;
+        width: 90%;
+        margin-top: 60em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        margin-left: 5em;
+    }
+
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .cart1{
+        height: 45vh;
+        width: 200px;
+    }
+    button{
+        height: 40px;
+        width: 130px;
+        border: none;
+        background-color: black;
+        color: white;
+        margin-left: 2em;
+    }
+    button:hover{
+        color:black;
+        background-color: white;
+        cursor: pointer;
+    }
+    img{
+        height: 30vh;
+        width: 200px;
+    }
+}
